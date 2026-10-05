@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "marker_rules": [
+    {
+      "network": "BD",
+      "message_ids": ["0x501"],
+      "match": "any",
+      "min_occurrences": 1
+    },
+    {
+      "network": "PT",
+      "message_ids": ["0x51B"],
+      "match": "any",
+      "min_occurrences": 1
+    },
+    {
+      "network": "CH",
+      "message_ids": ["0x154", "0x529"],
+      "match": "any",
+      "min_occurrences": 1
+    },
+    {
+      "network": "INFO",
+      "message_ids": ["0x504"],
+      "match": "any",
+      "min_occurrences": 1
+    },
+    {
+      "network": "BA",
+      "message_ids": ["0x513"],
+      "match": "any",
+      "min_occurrences": 1
+    }
+  ],
+  "decode_unknown_channels": true,
+  "strict_mapping": false,
+  "apply_value_to_text": false,
+  "output_version": "4.10",
+  "output_compression": 1
+}
